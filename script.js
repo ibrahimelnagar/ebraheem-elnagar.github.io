@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typed.js for dynamic job titles
     const typedTextElement = document.getElementById('typed-text');
     const jobTitles = [
-    'Project & Operations Manager',
-    'District Operation Manager at NATGAS',
-    'Infrastructure Management Expert',
-    'Team Leadership Professional'
-];
+        'Project & Operations Manager',
+        'District Operation Manager at NATGAS',
+        'Infrastructure Management Expert',
+        'Team Leadership Professional'
+    ];
 
     new Typed(typedTextElement, {
         strings: jobTitles,
